@@ -1,0 +1,656 @@
+---
+title: Raptor Management for Timber Sales - Columbine RD
+author: Mike Schmidt
+date: 2025-06-22
+bibliography: references.bib
+format: 
+  # commonmark:
+  #   df-print: kable
+  md: 
+    df-print: kable
+    knitr: 
+      opts_chunk: 
+        dev: "ragg_png"
+        dpi: 300
+execute:
+  echo: false
+  message: false
+  warning: false
+  class-output: 'r'
+---
+```{r}
+library(sf)
+library(terra)
+library(tidyverse)
+library(MetBrewer)
+library(ragg)
+library(arcgislayers)
+library(ggtext)
+library(elevatr)
+```
+
+## Rules for Astur management on the Columbine Ranger District
+
+**Disclaimer: Each of these is to be negotiated on a case by case basis and should be agreed to prior to implementation. These are recommendations until management, fuels, timber, fire and management agree to them. -Mike** 
+
+**Survey Timing:** Nest surveys should occur within 3 years of implementation or contracting. Once a contract is signed no future surveys will be conducted unless a nest is discovered by the contractor or if some other incidental observations occurs. 
+
+**Survey Requirements:** 
+
+  - Models have been developed for both Cooper's hawk and goshawk. A model for Sharp-shinned hawk are under development. Projects that occur in low probability habitat may not need surveys after models have been evaluated for accuracy. 
+  - Surveys are required for all vegetation removal activities greater than 2 acres in size. 
+  - Surveys are required for all activities that will appreciably increase disturbance levels within a modeled nest stand for long periods of time.  Activities that could increase nest stand disturbance are, for example: oil and gas production equipment and trails or roads.  (Note: at the moment only American goshawk habitat is modeled on the San Juan National Forest.)
+
+**Nest Site Protections:** 
+
+  - No cutting within 200m of a discovered nest, or no cut 30 acre buffer [@lambertFinalSanJuan2021; @rominUTAHFIELDOFFICE].  
+  - No activity within 1/2 mile of the nest from March 15 to August 31 [@lambertFinalSanJuan2021;@rominUTAHFIELDOFFICE]. 
+  - No structural improvement within 1/2 mile [@lambertFinalSanJuan2021]. 
+
+Note: No activity buffers accomplish two goals: 1) they maintain nest site characteristics and 2) give biologists some certainty that alternate nest locations will get protections. 
+
+### Recommendations for improving raptor habitat
+1. Three 30 acres nest stands of old, dense trees should be left per 5,500 acre area.  
+2. Three more stands of 30 acres should be developing in the 5,500 acre size. 
+3. Increase number and size of openings.  Openings should be approximately 2 to 4 ares in size and 2 to 3 should occur every 420 acres.
+4. Manage fuels so that not all downed logs and snags are removed from each 420 acre plot. 
+5. Generally decrease heterogeneity in timber treatments.   
+  
+Old dense stands do not occur on the San Juan. 
+
+## Notes on Astur Species
+
+### Goshawk
+
+#### Notes
+
+- **Nest Site Size:** 20 to 25 acres
+- **Nest Site Fidelity:** Can return to the same nest stand intermittently for decades.
+- **Nest Site Density:** 30 trees/acre
+- **Nest Site Basal Area:** 110 to 140 sq. ft/acre
+- **Nest Site Canopy Cover:** Generally > 60%
+- **Trends:**
+  - US:
+    - BBS: Flat/Down (-0.15 [95% -0.91, 0.36])
+    - eBird: NA
+  - Rocky Mountains:
+    - BCR (FS R2): Down (0: -3.67 [95% -9.58, 1.28], D: -3.13 [95% -8.71, 2.28])
+    - BBS (Southern Rocky Mountains): Flat (0.27 [-0.85, 1.6])
+  - CO:
+    - BCR: Down (O: -4 [95% -10.63, 2.98], D: -3.96 [95% -9.9, 2.5])
+    - BBS: Flat (0.14 [95% -1.89, 2.22])
+  - SJNF:
+    - BCR: Flat/Unknown (O: -2.42 [95% -13.31, 12.89], D: -0.6 [95% -11.98, 15.12])
+
+Flat in the US, flat to down in the Rockies, in Colorado down to flat, and locally no evidence for trend. 
+
+### Cooper's Hawk
+
+#### Notes
+
+- **Nest Site Size:** 4-8 hectares (10-20 acres)
+- **Nest Site Fidelity:** Build nest in the same area each year, but can use the same nest each year. **Alternate nest sites are 170 to 335m apart**.
+- **Nest Site Density:** 243–1,159/ha
+- **Nest Site Canopy Cover:** 64% to 95%
+- **Trends:**
+  - US
+    - eBird: Flat (-2% [80% 7.9%, -9.5])
+    - BBS: Up (1.53 [95% 1.17, 1.88])
+  - Rocky Mountains
+    - BCR (FS R2): Likely Increasing (D: 2.75 [95% -0.61, 6.54], O: 1.93 [95% -0.88, 5.34])
+    - BBS (Southern Rocky Mountains): Flat/Unknown (0.49 [95% -0.88, 1.87])
+  - CO:
+    - eBird: Down/Flat (-5.4% [80% 6.2%, 11.5%])
+    - BCR: Flat/Unknown (D: 1.49 [95% -2.58, 5.12], O: -0.02 [-95% 3.33, 3.37]) 
+    - BBS: Up/Unkown (1.06 [95% -0.87, 3]) 
+  - SJNF:
+    - BCR: Flat/Unknown (D: 0.38 [95% -7.93, 8.58], O: -1.8 [95% -9.7, 6.87]) 
+
+In the US  seems flat to up, in the rockies increasing to flat, in Colorado relatively flat to slightly down, and on the SJNF flat. 
+
+
+### Sharp-shinned Hawk
+
+#### Notes
+
+- **Nest Site Size:** NA
+- **Nest Site Fidelity:** Territories reused often but nests rarely reused.
+- **Nest Site Density:** NA
+- **Nest Site Canopy Cover:**NA
+- **Trends:**
+  - US:
+    - eBird: Down (-35.3% from 2012 to 2022 [80% -23.3, -41.9])
+    - BBS: Flat (0.06 [95% -0.21, 0.35])
+  - Rocky Mountains:
+    - BCR (FS R2): Increasing/Unknown (D: 1.79 [95% -3.2, 7.23], O: 1.37 [-2.87, 6.14])
+    - BBS (Southern Rocky Mountains): Flat/Unkonwn (-0.02 [95% -1.35, 1.16])
+  - CO:
+    - BCR: Flat/Unknown (D: 0.19 [95% -4.72, 5.02], O: -1.58 (-1.58 [95% -5.54, 3.08]))
+    - BBS: Flat/Unknown (0.15 [95% -1.42, 1.72])
+    - eBird: Down (-21.3% [80% -4.8, -40.3])
+  - SJNF:
+    - BCR: Flat/Unknown (D: 0.65 [95% -11.5, 12.84], O: 0.87 [95% -8.63, 14.63])
+
+Nationwide, eBird seems to be fairly pessimistic about this species, while BBS is flat. In the rockies sharp-shined hawks appear to be flat. In Colorado, eBird has a negative trend.  On the SJNF occupancy seems flat, but probably very uncertain. 
+
+
+### Notes on Trend Sources
+- Breeding Bird Survey (BBS) Data uses the core trend analysis from 1966 to 2022 [@ziolkowskijr.2023ReleaseNorth2023].
+- Bird Conservancy of the Rockies Data (BCR) uses the trend analysis that vary in range depending on strata. Data are generally from 2008 to 2024. [@rockymountainaviandatacenter2.0.RMADC20Portal2024]
+- eBird trends are from 2012 to 2022 [@finkEBirdStatusTrends2023].
+
+## Nest Site Comparisons
+```{r}
+# ssh_coha <- st_read(
+#   "T:\\FS\\NFS\\SanJuan\\Program\\2600WildlifeMgmt\\GIS\\ColumbineRangerDistrict\\mschmidt\\nrm\\outputs\\COHA_SSHA_SITES_ALL_REGIONS.shp",
+#   quiet = TRUE
+# )
+#
+# mapview::mapview(fs_districts)
+#
+#
+# amgo <- st_read(
+#   "T:\\FS\\NFS\\SanJuan\\Program\\2600WildlifeMgmt\\GIS\\ColumbineRangerDistrict\\mschmidt\\nrm\\outputs\\All_region_amgo.shp",
+#   quiet = TRUE
+# )
+#
+# cc <- rast(
+#   "D:\\GIS_Data\\NLCD\\nlcd_tcc_CONUS_2021_v2021-4\\nlcd_tcc_conus_2021_v2021-4.tif"
+# )
+#
+# names(cc) <- "canopy_cover"
+#
+# ssh_coha_cl <- ssh_coha |>
+#   janitor::clean_names() |>
+#   filter(
+#     source_geo == "Point",
+#     site_type == "Nest",
+#     year(last_vis_1) >= 2018
+#   ) |>
+#   st_centroid() |>
+#   filter(shape_stat == "CURRENT", last_vis_4 == "Usable") |>
+#   st_transform(crs(cc))
+#
+# amgo_cl <- amgo |>
+#   janitor::clean_names() |>
+#   filter(
+#     source_geo == "Point",
+#     site_type == "Nest",
+#     year(last_vis_1) >= 2018
+#   ) |>
+#   st_centroid() |>
+#   filter(shape_stat == "CURRENT", last_vis_4 == "Usable") |>
+#   st_transform(crs(cc))
+#
+#
+# sclass <- rast(
+#   "D:\\GIS_Data\\Landfire\\LF2023_SClass_240_CONUS\\LF2023_SClass_240_CONUS\\Tif\\LC23_SCla_240.tif"
+# )
+#
+# names(sclass) <- "lf_sclass"
+# evt<-rast("D:\\GIS_Data\\Landfire\\LF2023\\LF2023_EVT_240_CONUS\\LF2023_EVT_240_CONUS\\Tif\\LC23_EVT_240.tif")
+#
+# activeCat(evt)<-"EVT_GP_N"
+
+#
+# fs_districts <- arc_open(
+#   "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_RangerDistricts_01/MapServer/1"
+# ) |>
+#   arc_select() |>
+#   st_make_valid() |>
+#   filter(!REGION %in% c("10", "03", "08", "09"))
+#
+# fs_districts_cl <- fs_districts |>
+#   st_transform(crs(cc)) |>
+#   st_union()
+#
+# terraOptions()
+#
+# crop_cc <- cc |>
+#   crop(fs_districts_cl |> st_buffer(1000))
+#
+# wind_cc <- crop_cc |>
+#   focal(w = 5, fun = "mean")
+#
+#
+
+#
+# ssh_coha_cl |>
+#   count(common_nam)
+#
+# ssh_coha_cc <- terra::extract(cc, ssh_coha_cl) |>
+#   select(-ID)
+#
+# amgo_cc <- terra::extract(cc, amgo_cl) |>
+#   select(-ID)
+#
+# amgo_cl_cc <- amgo_cl |>
+#   bind_cols(amgo_cc) |>
+#   mutate(common_nam = "American Goshawk")
+#
+# all_nests_cc_sf <- ssh_coha_cl |>
+#   bind_cols(ssh_coha_cc) |>
+#   bind_rows(amgo_cl_cc) |>
+#   mutate(canopy_cover = as.numeric(canopy_cover)) |>
+#   st_intersection(fs_districts_cl)
+#
+# window_cc_ext<-terra::extract(wind_cc, all_nests_cc_sf) |>
+#   select(-ID)
+#
+# all_nest_cc_wind_sf <- all_nests_cc_sf |>
+#   bind_cols(window_cc_ext)
+#
+# sclass_ext <- terra::extract(sclass, all_nest_cc_wind_sf) |>
+#   select(-ID)
+#
+# all_nest_cc_wind_sf <- all_nest_cc_wind_sf |>
+#   bind_cols(sclass_ext)
+#
+# evt_ext <- terra::extract(evt, all_nest_cc_wind_sf) |>
+#   select(-ID)
+#
+# all_nest_cc_wind_sf <- all_nest_cc_wind_sf |>
+#   bind_cols(evt_ext)
+#
+# elev <- get_elev_raster(all_nest_cc_wind_sf, z=8) |>
+#   rast()
+# names(elev)<-"elevation"
+#
+# plot(elev)
+# slope<-terrain(elev, v="slope")
+# aspect<-terrain(elev, v="aspect")
+# tri<-terrain(elev, v="TRI")
+# tpi<-terrain(elev, v="TPI")
+#
+# ter<-c(elev,slope,aspect,tri,tpi)
+#
+# plot(ter$elevation)
+#
+# ter_by_nest<-terra::extract(ter, all_nest_cc_wind_sf) |>
+#   select(-ID)
+#
+# all_nest_cc_wind_sf<-all_nest_cc_wind_sf |>
+#   bind_cols(ter_by_nest)
+#
+# st_write(all_nest_cc_wind_sf, "output/all_nests_w_data.gpkg", append = FALSE)
+#
+# all_nest_cc_wind_sf <- st_read("output/all_nests_w_data.gpkg")
+#
+#
+#
+#
+#
+#
+# all_nest_cc_wind <- all_nest_cc_wind_sf |>
+#   filter(canopy_cover > 5) |>
+#   as_tibble()
+#
+# write_csv(all_nest_cc_wind, "output/all_nests_canopy_cover.csv")
+
+all_nest_cc_wind <- read_csv("output/all_nests_canopy_cover.csv")
+```
+
+```{r}
+theme_set(theme_minimal(base_family = "Fira Code"))
+
+theme_update(
+  plot.title = element_markdown(face = "bold", size = 14, color = "black"),
+  axis.text = element_text(face = "bold", color = "grey50"),
+  plot.margin = margin(10, 10, 10, 10, unit = "pt"),
+  axis.title = element_text(face = "bold", color = "black"),
+  plot.background = element_rect(color = "black")
+)
+```
+
+
+There is a lot of overlap between the nest site canopy cover between the three species.  Generally, canopy coverage is highly variable at the nest site.  It looks like Goshawks prefer more dense stands than both Cooper's and sharp-shinned hawks. @reynoldsManagementRecommendationsNorthern1992 recommends 50 to 70% for goshawks, but I think that these data show that goshawks will tolerate lower canopy cover percentages [@u.s.geologicalsurveyAnnualNLCDCollection2024]. 
+
+```{r}
+#| fig-height: 7.5
+
+# agg_png(
+#   filename = "output/raptor_nest_canopy_cover2.png",
+#   height = 800,
+#   width = 1000
+# )
+all_nest_cc_wind |>
+  ggplot(aes(common_nam, canopy_cover, fill = common_nam), color = "white") +
+  ggrain::geom_rain(
+    point.args = list(
+      size = 0.25
+    ),
+    violin.args = list(
+      color = "transparent"
+    )
+  ) +
+  theme_minimal(
+    base_family = "Fira Code",
+  ) +
+  labs(
+    title = "Canopy Cover at Nest Locations",
+    subtitle = "Data from US Forest NRM Wildlife, all regions",
+    x = "",
+    y = "Canopy Cover (%)",
+    caption =
+  ) +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(face = "bold", size = 14, color = "black"),
+    axis.text = element_text(face = "bold", color = "grey50"),
+    plot.margin = margin(10, 10, 10, 10, unit = "pt"),
+    axis.title = element_text(face = "bold", color = "black"),
+    plot.background = element_rect(color = "black")
+  ) +
+  scale_fill_manual(values = met.brewer("Lakota", 3))
+
+# dev.off()
+```
+
+Around the nest, there is more difference between the species. Goshawk needs the most dense stands.  Coopers and sharp-shinned need less stand density.  Goshawk numbers generally match @reynoldsManagementRecommendationsNorthern1992, but here as well it appears that Goshawks will tolerate lower canopy cover areas at their nest sites. 
+
+I've struggled a bit at what window size nest stand  should be evaluated at.  The bigger the window the greater the likelihood that you will average non-nest stand areas into the equation. The smaller the window the less likely you are to characterize what a nest stand is.  In this case I used a window of 5 pixels, or two pixels on any side of the nest pixel or about 75m from the nest.  I think in the future I should increase this because Goshawk nest stands are roughly 30 acres.  Thirty acre stands have a radius of approximately 200m [@u.s.geologicalsurveyAnnualNLCDCollection2024].  
+
+```{r}
+#| fig-height: 7.5
+
+all_nest_cc_wind |>
+  ggplot(aes(common_nam, focal_mean, fill = common_nam), color = "white") +
+  ggrain::geom_rain(
+    point.args = list(
+      size = 0.25
+    ),
+    violin.args = list(
+      color = "transparent"
+    )
+  ) +
+  theme_minimal(
+    base_family = "Fira Code",
+  ) +
+  labs(
+    title = "Canopy Cover within 75m of Nest Locations",
+    subtitle = "Data from US Forest NRM Wildlife, all regions",
+    x = "",
+    y = "Canopy Cover (%)",
+    caption =
+  ) +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(face = "bold", size = 14, color = "black"),
+    axis.text = element_text(face = "bold", color = "grey50"),
+    plot.margin = margin(10, 10, 10, 10, unit = "pt"),
+    axis.title = element_text(face = "bold", color = "black"),
+    plot.background = element_rect(color = "black")
+  ) +
+  scale_fill_manual(values = met.brewer("Lakota", 3))
+```
+
+Looking at the proportion of nests in each age class, we again see that Goshawks are the great generalists. While they prefer later successional classes, there are quite a few earlier successional classes (about 25%).  This is counter to @reynoldsManagementRecommendationsNorthern1992 who says that nest stands are in late successional vegetation structural stages. Also interesting is that both Cooper's and sharp-shinned almost exclusively occur in late successional stands [@landfireLANDFIRESClass2023]. 
+
+```{r}
+#| fig-height: 7.5
+all_nest_cc_wind |>
+  mutate(
+    lf_sclass = as.character(lf_sclass),
+    lf_sclass = ifelse(
+      lf_sclass %in% c("UN", "UE", "Developed"),
+      "Non-forest",
+      lf_sclass
+    )
+  ) |>
+  filter(lf_sclass != "Non-forest") |>
+  count(common_nam, lf_sclass) |>
+  group_by(common_nam) |>
+  mutate(prop = n / sum(n) * 100) |>
+  ggplot(aes(common_nam, prop, fill = lf_sclass), color = tranparent) +
+  geom_col() +
+  labs(
+    title = "Proportion of nests in each LandFire Successional <br> Class (Sclass)",
+    x = "",
+    y = "",
+    fill = "S Class"
+  ) +
+  theme(
+    legend.position = "top"
+  ) +
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+  scale_fill_manual(values = met.brewer("Lakota", 5))
+```
+
+What type of forest stands does each species occur in?  Here it is predominantly Ponderosa pine for both Cooper's Hawk and sharp-shinned hawk, while goshawk occurs in warm-dry mixed conifer forests and is also, again much more of a generalist [@landfireLANDFIREExistingVegetation2023]. 
+
+```{r}
+#| fig-height: 9
+all_nest_cc_wind |>
+  select(common_nam, EVT_GP_N) |>
+  mutate(EVT_GP_N = as.character(EVT_GP_N)) |>
+  mutate(
+    evt_gp_n_grouped = case_when(
+      str_detect(
+        EVT_GP_N,
+        "Alpine Dwarf-Shrub|Sagebrush|Mahogany|Developed|Marshes|Forbland|Shrubland|Chaparral"
+      ) ~
+        "Non-forest",
+      str_detect(
+        EVT_GP_N,
+        "Maple Woodland|Red Alder|Mountain Hemlock|Subalpine Woodlan|Pinyon"
+      ) ~
+        "Other Forest",
+      TRUE ~ EVT_GP_N
+    )
+  ) |>
+  count(common_nam, evt_gp_n_grouped) |>
+  group_by(common_nam) |>
+  mutate(
+    prop = n / sum(n) * 100,
+    evt_gp_n_grouped = str_replace(
+      evt_gp_n_grouped,
+      "Forest and Woodland",
+      "F & W"
+    ),
+    evt_gp_n_grouped = str_replace(
+      evt_gp_n_grouped,
+      "Douglas-fir",
+      "D. fir"
+    ),
+    evt_gp_n_grouped = str_replace(
+      evt_gp_n_grouped,
+      "Ponderosa Pine",
+      "P. Pine"
+    )
+  ) |>
+  ungroup() |>
+  ggplot(aes(common_nam, prop, fill = evt_gp_n_grouped)) +
+  geom_col() +
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+  scale_fill_manual(
+    values = met.brewer("Thomas", 12)
+  ) +
+  guides(
+    fill = guide_legend(
+      keyheight = unit(15, "pt"),
+      keywidth = unit(15, "pt"),
+      ncol = 2,
+      override.aes = list(size = 2)
+    )
+  ) +
+  labs(
+    title = "Nest by Landfire EVT Group Name",
+    x = "",
+    y = "",
+    fill = ""
+  ) +
+  theme(
+    legend.position = "bottom",
+    legend.text = element_text(size = 8)
+  )
+```
+
+```{r}
+all_nest_cc_wind |>
+  ggplot(aes(common_nam, elevation, fill = common_nam)) +
+  ggrain::geom_rain(
+    point.args = list(
+      size = 0.25
+    ),
+    violin.args = list(
+      color = "transparent"
+    )
+  ) +
+  theme_minimal(
+    base_family = "Fira Code",
+  ) +
+  labs(
+    title = "Elevation at Nest Locations",
+    subtitle = "Data from US Forest NRM Wildlife, all regions",
+    x = "",
+    y = "Elevation (m)"
+  ) +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(face = "bold", size = 14, color = "black"),
+    axis.text = element_text(face = "bold", color = "grey50"),
+    plot.margin = margin(10, 10, 10, 10, unit = "pt"),
+    axis.title = element_text(face = "bold", color = "black"),
+    plot.background = element_rect(color = "black")
+  ) +
+  scale_fill_manual(values = met.brewer("Lakota", 3))
+```
+
+```{r}
+all_nest_cc_wind |>
+  ggplot(aes(common_nam, slope, fill = common_nam)) +
+  ggrain::geom_rain(
+    point.args = list(
+      size = 0.25
+    ),
+    violin.args = list(
+      color = "transparent"
+    )
+  ) +
+  theme_minimal(
+    base_family = "Fira Code",
+  ) +
+  labs(
+    title = "Slope at Nest Locations",
+    subtitle = "Data from US Forest NRM Wildlife, all regions",
+    x = "",
+    y = "Slope (\u00B0)"
+  ) +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(face = "bold", size = 14, color = "black"),
+    axis.text = element_text(face = "bold", color = "grey50"),
+    plot.margin = margin(10, 10, 10, 10, unit = "pt"),
+    axis.title = element_text(face = "bold", color = "black"),
+    plot.background = element_rect(color = "black")
+  ) +
+  scale_fill_manual(values = met.brewer("Lakota", 3))
+```
+
+```{r}
+all_nest_cc_wind |>
+  bind_rows(mutate(all_nest_cc_wind, aspect = aspect + 360)) |>
+  bind_rows(mutate(all_nest_cc_wind, aspect = aspect - 360)) |>
+  ggplot(aes(aspect, fill = common_nam)) +
+  geom_density(color = "transparent", alpha = 0.5, adjust = 1) +
+  facet_wrap(~common_nam) +
+  coord_polar(start = 0, direction = 1) +
+  scale_x_continuous(limits = c(0, 360), breaks = seq(0, 360, 90)) +
+  theme_minimal(
+    base_family = "Fira Code",
+  ) +
+  labs(
+    title = "Aspect at Nest Locations",
+    subtitle = "Data from US Forest NRM Wildlife, all regions",
+    x = "",
+    y = "Aspect (\u00B0)"
+  ) +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(face = "bold", size = 14, color = "black"),
+    axis.text = element_text(face = "bold", color = "grey50"),
+    plot.margin = margin(10, 10, 10, 10, unit = "pt"),
+    axis.title = element_text(face = "bold", color = "black"),
+    plot.background = element_rect(color = "black")
+  ) +
+  scale_fill_manual(values = met.brewer("Lakota", 3))
+```
+
+```{r}
+all_nest_cc_wind |>
+  ggplot(aes(common_nam, TRI, fill = common_nam)) +
+  ggrain::geom_rain(
+    point.args = list(
+      size = 0.25
+    ),
+    violin.args = list(
+      color = "transparent"
+    )
+  ) +
+  theme_minimal(
+    base_family = "Fira Code",
+  ) +
+  labs(
+    title = "Terrain Roughness Index at Nest Locations",
+    subtitle = "Data from US Forest NRM Wildlife, all regions",
+    x = "",
+    y = "Terrain Roughness Index"
+  ) +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(face = "bold", size = 14, color = "black"),
+    axis.text = element_text(face = "bold", color = "grey50"),
+    plot.margin = margin(10, 10, 10, 10, unit = "pt"),
+    axis.title = element_text(face = "bold", color = "black"),
+    plot.background = element_rect(color = "black")
+  ) +
+  scale_fill_manual(values = met.brewer("Lakota", 3))
+```
+
+
+```{r}
+
+all_nest_cc_wind |>
+  ggplot(aes(common_nam, TPI, fill = common_nam)) +
+  ggrain::geom_rain(
+    point.args = list(
+      size = 0.25
+    ),
+    violin.args = list(
+      color = "transparent"
+    )
+  ) +
+  theme_minimal(
+    base_family = "Fira Code",
+  ) +
+  labs(
+    title = "Terrain Position Index at Nest Locations",
+    subtitle = "Data from US Forest NRM Wildlife, all regions",
+    x = "",
+    y = "Terrain Position Index"
+  ) +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(face = "bold", size = 14, color = "black"),
+    axis.text = element_text(face = "bold", color = "grey50"),
+    plot.margin = margin(10, 10, 10, 10, unit = "pt"),
+    axis.title = element_text(face = "bold", color = "black"),
+    plot.background = element_rect(color = "black")
+  ) +
+  scale_fill_manual(values = met.brewer("Lakota", 3))
+```
+
+
+
+
+
+
+
+
+
+## References
+
+
+
+
+
