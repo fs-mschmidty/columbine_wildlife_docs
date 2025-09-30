@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.B8KKhRA6.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"nepa/index.md","filePath":"nepa/index.md"}'),n={name:"nepa/index.md"};function r(o,s,c,d,i,p){return a(),t("div")}const f=e(n,[["render",r]]);export{m as __pageData,f as default};

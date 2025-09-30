@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.B8KKhRA6.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"gis/models/amgo.md","filePath":"gis/models/amgo.md"}'),o={name:"gis/models/amgo.md"};function s(r,m,c,n,d,i){return a(),t("div")}const l=e(o,[["render",s]]);export{_ as __pageData,l as default};

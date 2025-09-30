@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as s}from"./chunks/framework.B8KKhRA6.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tesp/te/silverspot.md","filePath":"tesp/te/silverspot.md"}'),r={name:"tesp/te/silverspot.md"};function o(a,p,c,n,i,l){return s(),t("div")}const m=e(r,[["render",o]]);export{d as __pageData,m as default};

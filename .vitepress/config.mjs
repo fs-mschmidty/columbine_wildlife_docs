@@ -110,6 +110,6 @@ export default defineConfig({
         },
       ],
     },
-    socialLinks: [{ icon: "github", link: "https://github.com/mschmidty" }],
+    socialLinks: [{ icon: "github", link: "https://github.com/fs-mschmidty" }],
   },
 });

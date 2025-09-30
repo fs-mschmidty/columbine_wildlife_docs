@@ -75,7 +75,7 @@ web_modules/
 .parcel-cache
 
 # vitepress build output
-**/.vitepress/dist
+# **/.vitepress/dist
 
 # vitepress cache directory
 **/.vitepress/cache

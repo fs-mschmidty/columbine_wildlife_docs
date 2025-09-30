@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.B8KKhRA6.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tesp/te/ufb.md","filePath":"tesp/te/ufb.md"}'),s={name:"tesp/te/ufb.md"};function r(o,c,n,p,f,_){return a(),t("div")}const m=e(s,[["render",r]]);export{i as __pageData,m as default};

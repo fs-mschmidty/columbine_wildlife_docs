@@ -1,0 +1,1 @@
+import{_ as a,c as e,o as t}from"./chunks/framework.B8KKhRA6.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tesp/te/canada-lynx.md","filePath":"tesp/te/canada-lynx.md"}'),n={name:"tesp/te/canada-lynx.md"};function c(s,r,o,d,p,_){return t(),e("div")}const m=a(n,[["render",c]]);export{l as __pageData,m as default};

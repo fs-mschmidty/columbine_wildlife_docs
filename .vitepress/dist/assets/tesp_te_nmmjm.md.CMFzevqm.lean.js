@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as m}from"./chunks/framework.B8KKhRA6.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tesp/te/nmmjm.md","filePath":"tesp/te/nmmjm.md"}'),a={name:"tesp/te/nmmjm.md"};function n(s,r,o,c,p,_){return m(),t("div")}const f=e(a,[["render",n]]);export{i as __pageData,f as default};
