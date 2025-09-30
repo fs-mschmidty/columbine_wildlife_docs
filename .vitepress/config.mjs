@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Columbine Wildlife Field Maps Docs",
   description:
     "Documentation on the development, use and structure of Field Maps Web Maps on the Columbine Ranger District.",
+  base: "/columbine_wildlife_docs/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
