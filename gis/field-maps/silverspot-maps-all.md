@@ -1,4 +1,4 @@
-# Silverspot Butterfly Data Collection Reference Doc
+# Silverspot Butterfly Data Collection 
 
 ### Databases 
 
