@@ -1,5 +1,10 @@
 # Silverspot Butterfly Data Collection 
 
+## Species Ecology and Breeding 
+
+(section placeholder)
+
+
 ### Databases 
 
 - Silverspot Habitat Inventory 
@@ -18,7 +23,7 @@
 
 ## Introduction
 
-We use this survey to document suitable silverspot butterfly habitat. The purpose of this collection effort is to document areas surveyed for bog violet on the SJNF. Bog violet is the only known larval host plant for the silverspot butterfly (*Speyeria nokomis nokomis*). Areas to survey are areas that are wet year-round and are under 9,300 feet in elevation (silverspot are currently only known to occur up to 8,300 feet, but an indicidual was detected at 9,300 feet). Negative detections are as important as positive ones, though we don't expect you to document literally everything you do, only areas that look like they could be habitat or are mapped as wetlands in the base map. We are particularly interested in areas that could be impacted by projects you are conducting. 
+We use this survey to document suitable silverspot butterfly habitat. The purpose of this collection effort is to document areas surveyed for bog violet on the SJNF. Bog violet is the only known larval host plant for the silverspot butterfly (*Speyeria nokomis nokomis*). Areas to survey are areas that are wet year-round and are under 9,300 feet in elevation (silverspot are currently only known to occur up to 8,300 feet, but an individual was detected at 9,300 feet). Negative detections are as important as positive ones, though we don't expect you to document literally everything you do, only areas that look like they could be habitat or are mapped as wetlands in the base map. We are particularly interested in areas that could be impacted by projects you are conducting. 
 
 Please record and submit a line feature along suitable habitat and include images of wetland and bog violet. Be sure to include an image of the spur of the plant (if flowers present) so ID can be verified. 
 
@@ -52,9 +57,9 @@ Please record and submit a line feature along suitable habitat and include image
 #### Data Dictionary and Description
  ## Introduction 
 
- We use this survey to keep track of northern bog violet presence and patch boundaries. The primary purpose of this database is to identify suitable silverspot habitat and to determine whether an official silverspot butterfly survey is necessary. 
+ We use this survey to record northern bog violet presence and patch boundaries on the Columbine RD. The primary purpose of this database is to identify suitable silverspot habitat and to determine whether an official silverspot butterfly survey is necessary. When you come across potential habitat, please first record a line survey in the Silverspot Habitat Inventory database. Then, if you have time, trace polygons in this survey or return to the site to do so.
 
- Please record and submit polygons indicating where bog violet patches are present. Attach images of bog violet for ID confirmation, when possible. Please include the spur of the plant in attached images, if blooming.
+ Please record and submit polygons tracing where the boundaries of bog violet patches. Attach images of bog violet for ID confirmation, when possible. Please include the spur of the plant in attached images if the plant is blooming.
 
  ## Details
 
@@ -98,9 +103,9 @@ Please record and submit a line feature along suitable habitat and include image
  #### Data Dictionary and Description
 
  ## Introduction 
- This database is used to collect official silverspot surveys on the SJNF. Three surveys are completed in each series, typically before a project is completed on habitat that has been deemed suitable for silverspot based on the Silverspot Habitat Inventory and USFS R2 SanJuan Silverspot Survey v2.
+ This database is used to collect official silverspot surveys on the SJNF. Three surveys are completed in each series, typically before a project is completed on habitat that has been deemed suitable for silverspot based on the Silverspot Habitat Inventory and USFS R2 SanJuan Silverspot Survey v2. This survey can only be completed from August to the second week of September, when *S. nokomis* is in its adult stage, so it is important to time the three surveys accordingly. 
 
- Please attach images of wetland and butterflies observed. If fritillary butterflies (especially silverspot) are tpresent, take multiple images for identification purposes. 
+ Please attach images of wetland and butterflies observed. If fritillary butterflies (especially silverspot) are present, please take multiple images for identification purposes. 
 
  ## Details
 
