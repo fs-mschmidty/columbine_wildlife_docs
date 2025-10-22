@@ -140,7 +140,7 @@ Name of Map: RaptorDB Draft V2
         * Non-Raptor
         * Unknown Raptor
 6.	Activity
-    * Description:
+    * Description: Note if there are any indications of raptors using a nest to help determine weather a nest is occupied. Attempt to find a vantage point that allows for viewing of eggs or young in nest but if this is not possible, select not able to determine sign. Recent nest maintenance may consist of new material added as suggested by lack of weathering and wear of the nest structure.
     * Options:
         * No sign 
         * Not able to determine 
@@ -150,7 +150,7 @@ Name of Map: RaptorDB Draft V2
         * Adults or young nearby
         * Recent nest maintenance observed, but no birds present
 7.	Nest Condition
-    * Description:
+    * Description: The nest condition should be based on the quality and age of the nest structure (how sturdy, is there a distinct nest cup, age of material, green material present, etc.) If occupied, likely good condition. 
     * Options:
         * Poor-Old material but degrading 
         * Fair-Old material 
