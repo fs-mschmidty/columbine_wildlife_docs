@@ -1,11 +1,28 @@
 # Silverspot Butterfly Data Collection 
 
-## Species Ecology and Breeding 
+## Species Ecology 
 
-(section placeholder)
+*Speyeria nokomis nokomis* is a large species of fritillary butterfly native to Utah, Colorado, and New Mexico. Though their range spans across three states, they are restricted small, isolated patches of habitat which are steadily decreasing.
+
+Preferred habitat for *S. n. nokomis* includes meadows, seeps, and marshes that are damp year-round. Northern bog violet (*Viola nephrophylla*) is the only known larval host plant for the species but is one of multiple common violets in the region, so it is important to be able to accurately identify it for the purpose of completing the following surveys. 
+
+![Northern bog violet](https://cales.arizona.edu/yavapaiplants/Forbs/Thumbnails/Viola-nephrophylla-P-web-ML.jpg "Flowering *Viola nephrophylla*")
 
 
-### Databases 
+Adult *S. n. nokomis* feed on a variety of nectar sources including thistles, horsemint, milkweed, and other flowering forbs.
+
+Silverspot butterflies are one of the larger fritillary species, with a wingspan of up to 3.1 inches. Males have a bright orange topside with a brown-toned orange underside. Adult females are dark brown on top, with cream patches on the outer rim of their wings. The underside of their wings is more variable, with an orange topwing and cream to brown hindwing. Other sexually dimorphic fritillaries on our district can resemble the coloration of silverspot. The female great spangled fritillary has a topside which appears very similar to female silverspot, but the undersides differ significantly. It is valuable, for this reason, to obtain images (or video) of a butterfly's topside and underside during surveys.
+
+![Silverspot butterfly visual guide](https://static1.1.sqspcdn.com/static/f/294699/28255962/1581636039703/S_n_nr_nokomis_series1_600w.jpg?token=BK4dVOTYG3%2Bm2TcfK7pZXttqWYA%3D "Silverspot Male and Female")
+
+
+*Speyeria nokomis nokomis* Species Status Assessment Report:
+ https://www.fws.gov/sites/default/files/documents/20210211%20Final%20S.%20n.%20nokomis%20SSA%20Version%201_508.pdf
+
+<br>
+<br>
+
+## Columbine RD Silverspot Databases 
 
 - Silverspot Habitat Inventory 
 
@@ -13,8 +30,8 @@
 
 - Silverspot Butterfly Surveys
 
-  
-
+  <br>
+<br>
 
   
 # Silverspot Habitat Inventory Map
@@ -33,33 +50,36 @@ Please record and submit a line feature along suitable habitat and include image
 **Fields:**
 1. Name of Surveyor
 2. Date/Time Survey Conducted 
+    * Description: This field will generate automatically. If recording information for a previously conducted survey, please manually fill in date. 
 3. Reason for Survey 
     
-    a. Description: Please look at the base map, if there is a polygon representing a wetland or other modeled habitat, please select "Modeled", if this is for a project or project planning, please select "Project", and if you just happened upon a wetland please select "Opportunistic".
+    * Description: Please look at the base map, if there is a polygon representing a wetland or other modeled habitat, please select "Modeled", if this is for a project or project planning, please select "Project", and if you just happened upon a wetland please select "Opportunistic".
 
-    b. Options: 
+    * Options: 
         
-        i. Opportunistic - Happened upon the habitat and decided to record an inventory.
-        ii. Modeled - Habitat was identified in wetland, spring, or silverspot modeled GIS layers.
-        iii. Project - Survey is associated with potential (not modeled) habitat for a project. If the habitat is modeled but within a project, please select "Modeled". 
+        * Opportunistic - Happened upon the habitat and decided to record an inventory.
+        * Modeled - Habitat was identified in wetland, spring, or silverspot modeled GIS layers.
+        * Project - Survey is associated with potential (not modeled) habitat for a project. If the habitat is modeled but within a project, please select "Modeled". 
 
 4. Type of Habitat
-
-    a. Options: 
+    * Description: 
+    * Options: 
         
-        i. Spring or Seep - Water source originated from a spring
-        ii. Lotic - Associated with the edge of a river or stream.
-        iii. Lentic - Associated with the edge of a pond or lake. 
-        iv. Fen - Associated with a fen. 
+        *  Spring or Seep - Water source originated from a spring
+        * Lotic - Associated with the edge of a river or stream.
+        * Lentic - Associated with the edge of a pond or lake. 
+        * Fen - Associated with a fen. 
 
+<br>
+<br>
 
 # USFS_R2_SanJuan_Silverspot_Survey_v2
 #### Data Dictionary and Description
  ## Introduction 
 
- We use this survey to record northern bog violet presence and patch boundaries on the Columbine RD. The primary purpose of this database is to identify suitable silverspot habitat and to determine whether an official silverspot butterfly survey is necessary. When you come across potential habitat, please first record a line survey in the Silverspot Habitat Inventory database. Then, if you have time, trace polygons in this survey or return to the site to do so.
+ We use this survey to record northern bog violet presence and patch boundaries on the Columbine RD. The primary purpose of this database is to identify suitable silverspot habitat and to determine whether an official silverspot butterfly survey is necessary. When you come across potential habitat, please first record a line survey in the Silverspot Habitat Inventory database. Then, if you have time, trace polygons in this survey or return to the site at a later date to do so.
 
- Please record and submit polygons tracing where the boundaries of bog violet patches. Attach images of bog violet for ID confirmation, when possible. Please include the spur of the plant in attached images if the plant is blooming.
+ Please record and submit polygons illustrating the boundaries of bog violet patches. Attach images of bog violet for ID confirmation, when possible. Please include the spur of the plant in attached images if the plant is blooming. If not flowering, please be sure to include images of the stem shoowing whether the plant is acaulescent or caulescent.
 
  ## Details
 
@@ -70,34 +90,42 @@ Please record and submit a line feature along suitable habitat and include image
  1. Name of Surveyer
  2. Reason for Survey
    
-    i. Modeled - Habitat was identified in wetland,, spring, or silverspot modeled GIS layers. 
+    * Modeled - Habitat was identified in wetland,, spring, or silverspot modeled GIS layers. 
 
-    ii. Oppotunistic - Happened upon the habitat and decided to record an assessment. 
+    * Oppotunistic - Happened upon the habitat and decided to record an assessment. 
 
-    iii. Project - Survey is associated with potential (not modeled) habitat for a project. If the habitat is modeled but within a project still, please select the "Modeled" option. 
+    * Project - Survey is associated with potential (not modeled) habitat for a project. If the habitat is modeled but within a project still, please select the "Modeled" option. 
     
  3. Type of Habitat
     
-    i. Spring or Seep - Water source originated from a spring
+    * Spring or Seep - Water source originated from a spring
     
-    ii. Lotic - Associated with the edge of a river or streep 
+    * Lotic - Associated with the edge of a river or streep 
     
-    iii. Lentic - Associated with the edge of a pond or lake.
+    * Lentic - Associated with the edge of a pond or lake.
     
-    iv. Fen - Associated with a fen. 
+    * Fen - Associated with a fen. 
 
  4. Persistent wet areas occur at or nearby survey area?
     
-    i. No - Persistent wet areas are not visible from the survey area.
-    ii. Yes - Persistent wet areas are within 100m from the survey locations.
+    * No - Persistent wet areas are not visible from the survey area.
+    * Yes - Persistent wet areas are within 100m from the survey locations.
     
-    iii. Yes - Persistent wet areas are visible from survey area but are greater than 100m from survey site. 
+    * Yes - Persistent wet areas are visible from survey area but are greater than 100m from survey site. 
  5. Do you think this is habitat?
+    * Description: If there are wet areas and bog violet present, please select yes. 
  6. Comments
  7. Bog violet present?
+    * Description: Please identify to the best of your ability. Attach extra images if unsure of violet species. 
  8. Is an official silverspot/bog violet survey required?
+    * Description: To be completed by wildlife biologist. 
  9. Was an official bog violet survey completed?
+    * Description: To be completed by wildlife biologist. 
  10. Date Inventoried
+    * Description: 
+
+<br>
+<br>
 
  # Silverspot Butterfly Surveys
  #### Data Dictionary and Description
@@ -125,44 +153,44 @@ Please record and submit a line feature along suitable habitat and include image
 6. TIme spent at survey point (minutes)
 7. Weather Conditions 
     
-    i. Clear/Sunny
+    * Clear/Sunny
     
-    ii. Overcast
+    * Overcast
     
-    iii. Windy 
+    * Windy 
     
-    iv. Rainy 
+    * Rainy 
 
 8. Flowers in Field of View
 
-    a. Description: None = No flowers visible. Sparse = A few isolated flowers or small patches. Can count the number of flowers in 10 seconds or less. Abundant = Many flowers, Need more than 10 seconds to count all flowers in FOV.
+    *  Description: None = No flowers visible. Sparse = A few isolated flowers or small patches. Can count the number of flowers in 10 seconds or less. Abundant = Many flowers, Need more than 10 seconds to count all flowers in FOV.
 
-    b. Options
+    * Options
 
-        i. None 
+        * None 
 
-        ii. Sparse
+        * Sparse
 
-        iii. Abundant 
+        * Abundant 
 
 9. Canopy Cover 
 
-    a. Description: Open = No branches overhead. Full sun exposure. Partially closed = A few branches overhead. Ground exposed to sun in some areas, shaded in others. Closed = Branches of trees touching overhead, most of the ground shaded by overstory
+    * Description: Open = No branches overhead. Full sun exposure. Partially closed = A few branches overhead. Ground exposed to sun in some areas, shaded in others. Closed = Branches of trees touching overhead, most of the ground shaded by overstory
 
-    b. Options: 
+    * Options: 
 
-        i.  Open
+        *  Open
 
-        ii. Partially Closed
+        * Partially Closed
 
-        iii. Closed 
+        * Closed 
 
 10. Butterflies Observed
 
-    a. Description: Were butterflies of any type observed?
+    *  Description: Were butterflies of any type observed?
 
 11. Silverspot Observed
 
-    a. Description: Were any silverspot butterflies observed?
+    * Description: Were any silverspot butterflies observed? (Attach images)
 
 12. Comments
