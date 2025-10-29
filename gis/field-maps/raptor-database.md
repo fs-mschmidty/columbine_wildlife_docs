@@ -1,4 +1,3 @@
-This is a document for the Field Maps raptor database.
 ---
 Title: Raptor DB Data Dictionary 
 Date: 2025-10-13
