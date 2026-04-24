@@ -3,8 +3,6 @@
 name: Deploy VitePress site to Pages
 
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 on:
   # Runs on pushes targeting the `main` branch. Change this to `master` if you're
@@ -61,6 +59,8 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     needs: build
     runs-on: ubuntu-latest
     name: Deploy
