@@ -109,21 +109,6 @@ Historic surveys of sites with positive Swift detections are often accompanied b
   <img src="./figures/porcupine_nest_viewing.jpg" alt="Porcupine Cascades Nest View3">
   <img src="./figures/s_min10.jpg" alt=" South Mineral Creek Falls Nest View">
 </div>
-<style>
-.image-gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 15px;
-  margin: 20px 0;
-}
-.image-gallery img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-</style>
 
 Note: Additional photos of the site as well es specific nest ledges and fledglings are located in the "Location Info" folder at 2600WildlifeMgmtSJN (Pinyon Bookshelf Folders O)\26xxGeneral\ColumbineWorkSpace\Monitoring\Black Swift
 
@@ -168,8 +153,3 @@ Locating nests is important in assessing the reproductive capacity of a colony a
 ### Partner Organization Monitoring Efforts
 
 Although the Forest Service only has data recorded up to 2004, the Rocky Mountain Bird Observatory seems to have continued some form of Black Swift Monitoring to the present day. Coordinating monitoring protocols and updating data and sites based on recent efforts could significantly aid in our understanding and management of Black Swifts on the San Juan National Forest. Rob Sparks (rob.sparks@birdconservancy.org) and may have insight into how we can best monitor and manage this sensitive species.
-
-levad memoir https://www.aba.org/thecoolestbird.pdf
-
-test 1
-

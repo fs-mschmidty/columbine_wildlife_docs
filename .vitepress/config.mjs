@@ -84,6 +84,16 @@ export default defineConfig({
                 { text: "Other T and E", link: "/tesp/te/other-te" },
               ],
             },
+            {
+              text: "Sensitive Species",
+              items: [
+                {
+                  text: "Sensitive Species Overview",
+                  link: "/tesp/sensitive",
+                },
+                { text: "Black Swift", link: "/tesp/sensitive/black-swift" },
+              ],
+            },
           ],
         },
       ],
