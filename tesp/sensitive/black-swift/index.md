@@ -104,10 +104,10 @@ Historic surveys of sites with positive Swift detections are often accompanied b
 | South Mineral Creek Falls | Drive past S. Mineral Campground about 1 mile.                                                           | Nest on left wall of the canyon under a large overhang.                                                                     |
 
 <div class="image-gallery">
-  <img src="./figures/cataract_nest_ledge_1999.jpg" alt="Cataract Canyon Nest View">
-  <img src="./figures/bandora_base.jpg" alt="Bandora Falls View">
-  <img src="./figures/porcupine_nest_viewing.jpg" alt="Porcupine Cascades Nest View3">
-  <img src="./figures/s_min10.jpg" alt=" South Mineral Creek Falls Nest View">
+  <img src="./figures/cataract_nest_ledge_19991.jpg" alt="Cataract Canyon Nest View">
+  <img src="./figures/bandora_base1.jpg" alt="Bandora Falls View">
+  <img src="./figures/porcupine_nest_viewing1.jpg" alt="Porcupine Cascades Nest View3">
+  <img src="./figures/s_min101.jpg" alt=" South Mineral Creek Falls Nest View">
 </div>
 
 Note: Additional photos of the site as well es specific nest ledges and fledglings are located in the "Location Info" folder at 2600WildlifeMgmtSJN (Pinyon Bookshelf Folders O)\26xxGeneral\ColumbineWorkSpace\Monitoring\Black Swift
