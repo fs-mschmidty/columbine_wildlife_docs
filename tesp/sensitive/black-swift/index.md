@@ -71,7 +71,7 @@ The focus for Summer 25 was to gather monitoring information from historic surve
 
 Black Swift information from several data sources, including known waterfalls, GBIF observations, and historic monitoring site data was cleaned and mapped (Figure 1)
 
-![Black Swift Overview Map](./figures/SwiftOverviewMap.jpg)
+![Black Swift Overview Map](./figures/SwiftOverviewMap1.jpg)
 _figure 1: Map of Black Swift sightings (GBIF), historically surveyed sights, known waterfalls, and current monitoring sited around South Mineral Area on Columbine RD in the San Juan National Forest._
 
 ### Columbine Black Swift Sites
