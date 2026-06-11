@@ -37,3 +37,49 @@ This map layer is intended for unofficial milkweed surveys. The observer will re
 
 6. Photos and Attachments
     - While not a required field, photos are highly encouraged and are very helpful.
+
+### Milkweed Inventory Polygon
+
+This map layer is intended for official milkweed surveys and is to be conducted by wildlife staff only. The surveyor will record a polygon that tracks them as they move around a patch of milkweed/ survey area. 
+
+**Fields:**
+
+1. Surveyor Name (Required)
+
+2. Date and Time (Required)
+
+3. Is Milkweed Present? (Required)
+
+    - Yes
+    - No
+    - Unknown/Other
+
+4. Species (Required)
+
+    - Options:
+        - Showy - Pink/white flower clusters. Broad, long, widely spaced leaves on sturdy stem
+        - Horsetail - Tiny white flower with round petals. Narrow stem with skinny leaves.
+        - Antelope-Horns - Spherical cluster of green/yellow/violet flowers. Leaves are long and pointed.
+        - Butterfly - Dense fiery orange/yellow flowers. Long deep/ narrow leaves.
+        - Unknown/Other
+
+5. Milkweed Density
+
+    - This is to determine if there is a small, sparse patch of milkweed or if it is more abundant/ dense in the survey area. It is a rough estimation of how much of the surveyed patch has milkweed. 
+    - Options:
+        - Sparse (0-25%)
+        - Not Sparse (25-100%)
+
+6. Habitat
+    - Options:
+        - Meadow/Grassland
+        - Riparian/Wetland
+        - Shrubland
+        - Forest
+        - Roadside
+        -Other (please describe in comments)
+
+7. Comments
+
+8. Photos and Attachments
+    - While not a required field, please include photos of milkweed and habitat.
