@@ -128,7 +128,7 @@ Please record and submit polygons illustrating the boundaries of bog violet patc
 9.  Was an official bog violet survey completed?
     - Description: To be completed by wildlife biologist.
 10. Date Inventoried
-    - Description:
+    - Description: This field will generate automatically. If recording information for a previously conducted survey, please manually fill in date.
 
 ### Silverspot Butterfly Surveys
 
