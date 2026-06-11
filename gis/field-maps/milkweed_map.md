@@ -10,9 +10,9 @@ This map layer is intended for unofficial milkweed surveys. The observer will re
 
 **Fields:**
 
-1. Observer Name (required)
+1. Observer Name (Required)
 
-2. Date and Time (required)
+2. Date and Time (Required)
 
 3. Is Milkweed Present? (Required)
 
@@ -21,3 +21,19 @@ This map layer is intended for unofficial milkweed surveys. The observer will re
         - Yes
         - No
         - Unknown/Other
+
+4. Species
+
+    - Options:
+        - Showy - Pink/white flower clusters. Broad, long, widely spaced leaves on sturdy stem
+        - Horsetail - Tiny white flower with round petals. Narrow stem with skinny leaves.
+        - Antelope-Horns - Spherical cluster of green/yellow/violet flowers. Leaves are long and pointed.
+        - Butterfly - Dense fiery orange/yellow flowers. Long deep/ narrow leaves.
+        - Unknown/Other 
+
+5. Comments
+
+    - Please leave comments regarding habitat, species, density, irregularities, questions, and more.
+
+6. Photos and Attachments
+    - While not a required field, photos are highly encouraged and are very helpful.
