@@ -39,6 +39,10 @@ export default defineConfig({
                   link: "/gis/field-maps/wildlife-survey",
                 },
                 {
+                  text: "Milkweed Survey",
+                  link: "gis/field-maps/milkweek-map",
+                },
+                {
                   text: "Other Misc Field Maps",
                   link: "/gis/field-maps/other-misc-maps",
                 },
