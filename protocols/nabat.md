@@ -86,3 +86,6 @@ For bird recorings, the acoustic microphone needs to be attached and plugged in.
 - End Time: 1 hour 30 minutes after sunset. 
 
 ![alt text](IMG_0005-1.jpeg)
+
+**More information about configuration settings can be found on [Wildlife Acoustics Settings Reference Page](https://answers.wildlifeacoustics.com/r/en-US/Song-Meter-Mini-Bat-2-User-Guide/Settings-Reference).**
+
