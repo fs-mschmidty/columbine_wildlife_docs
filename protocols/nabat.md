@@ -6,7 +6,7 @@
 2. Device name will pop up on app under "Recorders"
 3. Hold down PAIR button on device
 4. Select Pair on the app to the right of the device name
-5. Press Configure on app to the device settings
+5. Press Configure on app to edit device settings
 
 ## Bat Settings
 
@@ -18,10 +18,10 @@ For bat recording, the acoustic microphone attachment is not required.
 
 - Full spectrum sample rate: Keep the 384 kHz default option. 
     - The other options are 256 kHz and 500 kHz, both of which aren't sufficient / necessary for SJNF NABat monitoring. 
-- Non-triggered recording: keep this turned off so that the device only records when it has been triggered.
+- Non-triggered recording: keep this turned OFF so that the device only records when it has been triggered.
     - If this is turned on, the device will be continuously recording without a trigger, taking up unnecessary space.
 - Minimum trigger frequency: 16 kHz is the recommended level for filtering out background noise.
-    - Anything below the minimum trigger frequency will not trigger recordings. Generally speaking, NABats trigger at a higher frequency than 16 kHz. Therefore, we can eliminate extra background noise with a 16 kHz minimum trigger level.
+    - Anything below the minimum trigger frequency will not trigger recordings. Generally speaking, NABats trigger at a higher frequency than 16 kHz. Therefore, we can eliminate recording extra background noise with a 16 kHz minimum trigger frequency.
 - Maximum recording length: 5 seconds
     - A new file will be created if a bat is still present after 5 seconds.
 - Trigger window: 3 seconds
@@ -66,24 +66,24 @@ Bat recordings need to start a minimum of 30 minutes before sunrise and 30 minut
 
 ## Bird Settings
 
-For bird recorings, the acoustic microphone needs to be attached and plugged in.
+For bird recordings, the acoustic microphone needs to be attached and plugged in.
 
 **Ultrasonic Settings:** Leave default
 
 **Acoustic Settings:** Leave default
 
-**Location & Time Zone:** Reset location in the field whne deploying. Colorado is in UTC-06:00 time zone.
+**Location & Time Zone:** Reset location in the field when deploying. Colorado is in UTC-06:00 time zone.
 
 **Delay Start:** Off
 
-**Send Bluetooth Beacons** On
+**Send Bluetooth Beacons**: On
 
 **Schedule Editor:** Custom Schedule
 - Mode: Acoustic
 - Start time: 1 hour 30 minutes before sunrise
 - Duty Cycle: Cycle
     - On Duration: 30 minutes. Off Duration: 30 minutes.
-- End Time: 1 hour 30 minutes after sunset. 
+- End Time: 1 hour 30 minutes after sunset
 
 ![alt text](IMG_0005-1.jpeg)
 
