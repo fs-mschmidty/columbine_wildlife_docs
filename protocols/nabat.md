@@ -34,3 +34,44 @@ For bat recording, the acoustic microphone attachment is not required.
 **Acoustic Settings**
 
 These settings can only be adjusted when the acoustic microphone is attached, which will will not use for Bat monitoring. 
+
+**Location & Time Zone**
+
+Reset location the field when deploying. Colorado is in UTC-06:00 time zone.
+
+**Delay Start**
+
+A scheduled start date can be preprogrammed, but instead we will leave this field blank and configure at deployment.
+
+**Send Bluetooth Beacons** 
+
+Always keep this on.
+
+**Schedule Editor:** Custom Schedule
+
+Bat recordings need to start a minimum of 30 minutes before sunrise and 30 minutes after sunset.
+
+- Mode: Ultrasonic
+
+- Start time: Sunrise - 00:30
+
+- Duty Cycle: Alwyas
+    - Cycle is also an option, but since our recordings are triggered, we want to keep this always on. 
+
+- End time: Sunset + 00:30
+
+## Bird Settings
+
+For bird recorings, the acoustic microphone needs to be attached and plugged in.
+
+**Ultrasonic Settings:** Leave default
+
+**Acoustic Settings:** Leave default
+
+**Location & Time Zone:** Reset location in the field whne deploying. Colorado is in UTC-06:00 time zone.
+
+**Delay Start:** Off
+
+**Send Bluetooth Beacons** On
+
+**Schedule Editor:** Custom Schedule
