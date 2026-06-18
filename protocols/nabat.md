@@ -75,3 +75,8 @@ For bird recorings, the acoustic microphone needs to be attached and plugged in.
 **Send Bluetooth Beacons** On
 
 **Schedule Editor:** Custom Schedule
+- Mode: Acoustic
+- Start time: 1 hour 30 minutes before sunrise
+- Duty Cycle: Cycle
+    - On Duration: 30 minutes. Off Duration: 30 minutes.
+- End Time: 1 hour 30 minutes after sunset. 
