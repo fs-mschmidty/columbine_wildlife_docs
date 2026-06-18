@@ -14,6 +14,7 @@ export default defineConfig({
       { text: "TESP", link: "/tesp/" },
       { text: "NEPA", link: "/nepa/" },
       { text: "Policy", link: "/rd_policy/" },
+      { text: "Protocols", link: "/protocols/" },
     ],
 
     sidebar: {
@@ -121,6 +122,15 @@ export default defineConfig({
           items: [
             { text: "CRD Wildlife Policies", link: "/rd_policy" },
             { text: "Raptor Policy", link: "/rd_policy/astur" },
+          ],
+        },
+      ],
+      "/protocols/": [
+        {
+          text: "CRD Protocols",
+          items: [
+            { text: "CRD Protocols", link: "/protocols" },
+            { text: "NABat protocols", link: "/protocols/nabat" },
           ],
         },
       ],
