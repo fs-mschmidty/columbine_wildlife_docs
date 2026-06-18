@@ -89,3 +89,15 @@ For bird recorings, the acoustic microphone needs to be attached and plugged in.
 
 **More information about configuration settings can be found on [Wildlife Acoustics Settings Reference Page](https://answers.wildlifeacoustics.com/r/en-US/Song-Meter-Mini-Bat-2-User-Guide/Settings-Reference).**
 
+## Clearing SD Card
+
+1. To clear contents of SD Card, device needs to be paired and SD Card needs to be installed.
+2. Open configuration settings.
+3. Click utilities button in top right of configuration settings page.
+4. Click Format SD Card and YES to erase all data. 
+5. SD Card successfully formatted: OK
+
+## Turning Off Device
+
+1. On the recorders page of the app, click Unpair next to device name.
+2. Turn off device.
