@@ -89,6 +89,12 @@ For bird recorings, the acoustic microphone needs to be attached and plugged in.
 
 **More information about configuration settings can be found on [Wildlife Acoustics Settings Reference Page](https://answers.wildlifeacoustics.com/r/en-US/Song-Meter-Mini-Bat-2-User-Guide/Settings-Reference).**
 
+## Saving Configuration Settings
+
+1. After finishing desired setting edits, click SAVE in top right corner and give it a name (ie. bat_settings)
+2. To load these same settings onto another device, pair device and click LOAD button in top right corner of configuration settings page.
+3. Select the name of the settings you want on the device. You will now have the same settings on multiple devices without having to reconfigure them individually.
+
 ## Clearing SD Card
 
 1. To clear contents of SD Card, device needs to be paired and SD Card needs to be installed.
