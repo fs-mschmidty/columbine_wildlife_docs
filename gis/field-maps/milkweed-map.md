@@ -1,6 +1,6 @@
 # Milkweed Field Maps
 
-The milkweed inventory map is intended to house all inventory surveys (Milkweek Inventory Line) and all verified milkweek patches (Milkweed Inventory Polygon) on the San Juan National Forest. The purpose of the map is to document where we have looked for milkweed and where milkweed occurs. Please include images at all survey locations.
+The milkweed inventory map is intended to house all inventory surveys (Milkweed Inventory Line) and all verified milkweed patches (Milkweed Inventory Polygon) on the San Juan National Forest. The purpose of the map is to document where we have looked for milkweed and where milkweed occurs. Please include images at all survey locations.
 
 ## Map Layers and Description
 
