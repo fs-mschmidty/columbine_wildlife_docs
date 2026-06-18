@@ -31,6 +31,8 @@ For bat recording, the acoustic microphone attachment is not required.
 - Left channel gain: 12 dB
     - Options are 0, 6 12 dB. We will stick with the default option 12 dB.
 
+![alt text](IMG_0003-2.jpeg)
+
 **Acoustic Settings**
 
 These settings can only be adjusted when the acoustic microphone is attached, which will will not use for Bat monitoring. 
@@ -60,6 +62,8 @@ Bat recordings need to start a minimum of 30 minutes before sunrise and 30 minut
 
 - End time: Sunset + 00:30
 
+![alt text](IMG_0004.jpeg)
+
 ## Bird Settings
 
 For bird recorings, the acoustic microphone needs to be attached and plugged in.
@@ -80,3 +84,5 @@ For bird recorings, the acoustic microphone needs to be attached and plugged in.
 - Duty Cycle: Cycle
     - On Duration: 30 minutes. Off Duration: 30 minutes.
 - End Time: 1 hour 30 minutes after sunset. 
+
+![alt text](IMG_0005-1.jpeg)
