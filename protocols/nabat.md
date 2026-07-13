@@ -105,7 +105,7 @@ For bird recordings, the acoustic microphone needs to be attached and plugged in
 
 ## Updating Firmware
 
-Before deployment, it is important to make sure the firmware on your SD card is up to date. Information about firmware can be found on [Wildlife Acoustics Downloads Page](https://www.wildlifeacoustics.com/account/downloads).
+Before deployment, it is important to make sure the firmware on your SD card is up to date. Information about firmware can be found on [Wildlife Acoustics Downloads Page](https://www.wildlifeacoustics.com/account/downloads). There are great video tutorials on how to load firmware on the [Wildlife Acoustics Video Tutorial Page](https://www.wildlifeacoustics.com/resources/video-tutorials/song-meter-mini-bat-2/en/song-meter-mini-bat-2-mini-bat-2-firmware).
 
 1. Make sure SD Card is cleared, as described in the above section.
 2. View and download the latest version of firmware onto your computer from the link above.
