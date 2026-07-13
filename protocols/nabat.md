@@ -103,6 +103,19 @@ For bird recordings, the acoustic microphone needs to be attached and plugged in
 4. Click Format SD Card and YES to erase all data. 
 5. SD Card successfully formatted: OK
 
+## Updating Firmware
+
+Before deployment, it is important to make sure the firmware on your SD card is up to date. Information about firmware can be found on [Wildlife Acoustics Downloads Page](https://www.wildlifeacoustics.com/account/downloads).
+
+1. Make sure SD Card is cleared, as described in the above section.
+2. View and download the latest version of firmware onto your computer from the link above.
+3. Insert the cleared SD card into your computer.
+4. In file explorer, copy the latest firmware .smm download into your SD card.
+5. Insert updated SD card into Song Meter device and turn it on.
+6. Click the Function button on the device until Load LED button is solid green.
+7. Press and hold the Function button until all LEDs are flashing. Once the lights go solid, the new firmware has been loaded.
+8. You can check the status of your firmware by clicking Status on next to the device name on the app. Current firmware version is 5.2 for SM MiniBat. 
+
 ## Turning Off Device
 
 1. On the recorders page of the app, click Unpair next to device name.
