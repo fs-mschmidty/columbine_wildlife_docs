@@ -79,12 +79,15 @@ For bird recordings, the acoustic microphone needs to be attached and plugged in
 **Send Bluetooth Beacons**: On
 
 **Schedule Editor:** Custom Schedule
+
+Note that birds are most active in the morning, with activity typically starting right before first light. We still choose to record all day on a 30 minute cycle, as they are active throughout the day. 
+
 - Mode: Acoustic
 - Start time: 1 hour 30 minutes before sunrise
 - Duty Cycle: Cycle
     - On Duration: 30 minutes. Off Duration: 30 minutes.
 - End Time: 1 hour 30 minutes after sunset
-- Note that birds are most active in the morning, with activity typically starting right before first light. We still choose to record all day on a 30 minute cycle, as they are active throughout the day. 
+
 ![alt text](IMG_0007.jpeg)
 
 **More information about configuration settings can be found on [Wildlife Acoustics Settings Reference Page](https://answers.wildlifeacoustics.com/r/en-US/Song-Meter-Mini-Bat-2-User-Guide/Settings-Reference).**
