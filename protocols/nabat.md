@@ -51,7 +51,7 @@ Always keep this on.
 
 **Schedule Editor:** Custom Schedule
 
-Bat recordings need to start a minimum of 30 minutes before sunset and 30 minutes after sunrise.
+Bat recordings need to start a minimum of 30 minutes before sunset and end a minimum of 30 minutes after sunrise. This schedule has the bat monitors on throughout the whole night, but only records when triggered. 
 
 - Mode: Ultrasonic
 
@@ -84,7 +84,7 @@ For bird recordings, the acoustic microphone needs to be attached and plugged in
 - Duty Cycle: Cycle
     - On Duration: 30 minutes. Off Duration: 30 minutes.
 - End Time: 1 hour 30 minutes after sunset
-
+- Note that birds are most active in the morning, with activity typically starting right before first light. We still choose to record all day on a 30 minute cycle, as they are active throughout the day. 
 ![alt text](IMG_0007.jpeg)
 
 **More information about configuration settings can be found on [Wildlife Acoustics Settings Reference Page](https://answers.wildlifeacoustics.com/r/en-US/Song-Meter-Mini-Bat-2-User-Guide/Settings-Reference).**
