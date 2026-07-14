@@ -62,7 +62,7 @@ Bat recordings need to start a minimum of 30 minutes before sunset and 30 minute
 
 - End time: Sunrise + 00:30
 
-![alt text](IMG_0004.jpeg)
+![alt text](IMG_0006.jpeg)
 
 ## Bird Settings
 
@@ -85,7 +85,7 @@ For bird recordings, the acoustic microphone needs to be attached and plugged in
     - On Duration: 30 minutes. Off Duration: 30 minutes.
 - End Time: 1 hour 30 minutes after sunset
 
-![alt text](IMG_0005-1.jpeg)
+![alt text](IMG_0007.jpeg)
 
 **More information about configuration settings can be found on [Wildlife Acoustics Settings Reference Page](https://answers.wildlifeacoustics.com/r/en-US/Song-Meter-Mini-Bat-2-User-Guide/Settings-Reference).**
 
