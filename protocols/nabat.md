@@ -51,16 +51,16 @@ Always keep this on.
 
 **Schedule Editor:** Custom Schedule
 
-Bat recordings need to start a minimum of 30 minutes before sunrise and 30 minutes after sunset.
+Bat recordings need to start a minimum of 30 minutes before sunset and 30 minutes after sunrise.
 
 - Mode: Ultrasonic
 
-- Start time: Sunrise - 00:30
+- Start time: Sunset - 00:30
 
 - Duty Cycle: Alwyas
     - Cycle is also an option, but since our recordings are triggered, we want to keep this always on. 
 
-- End time: Sunset + 00:30
+- End time: Sunrise + 00:30
 
 ![alt text](IMG_0004.jpeg)
 
