@@ -80,7 +80,7 @@ For bird recordings, the acoustic microphone needs to be attached and plugged in
 
 **Schedule Editor:** Custom Schedule
 
-Note that birds are most active in the morning, with activity typically starting right before first light. We still choose to record all day on a 30 minute cycle, as they are active throughout the day. 
+Note that birds are most active in the morning, with activity typically starting right before first light. Starting recordings 1 hour and 30 minutes before sunrise provides the proper buffer. We still choose to record all day on a 30 minute cycle, as they are active throughout the day. 
 
 - Mode: Acoustic
 - Start time: 1 hour 30 minutes before sunrise
