@@ -1,6 +1,6 @@
-## Historic Surveys
+## Historic Surveys for Southwestern Willow Flycatchers
 
-There are four locations on the Columbine Ranger District of the San Juan National Forest where wildlife biologists have surveyed for Southwestern Willow Flycatchers (SWWF). These survey locations are Beaver Meadows, East Vallecito, Hermosa Park, and Parrot Creek. 
+There are four locations on the Columbine Ranger District of the San Juan National Forest where wildlife biologists have surveyed for Southwestern Willow Flycatchers (SWWF). The survey locations are Beaver Meadows, East Vallecito, Hermosa Park, and Parrot Creek. 
 
 ### Beaver Meadows
 
@@ -121,3 +121,7 @@ This location was only surveyed in 2023. The survey was conducted here before th
 - **Total SWWF Found: 0**
 
 <img width="886" height="1192" alt="Screenshot 2026-08-12 163741" src="https://github.com/user-attachments/assets/0595d03b-5cc3-4acb-b615-43f1e79c3192" />
+
+## Southwestern Willow Flycatcher Geodatabase
+
+A geodatabase on ArcGIS Pro has been created to house all SWWF surveys and locations on the Columbine Ranger District. The survey data is stored within a table that has a spatial relationship to the survey location polygons. If anymore surveys are found, we will add them to the geodatabase as a way to track all the data in one location. We will also update this page with any additional surveys found. 
