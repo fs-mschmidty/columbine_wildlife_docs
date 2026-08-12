@@ -10,10 +10,10 @@ This survey location has the most historic surveys recorded. We have data from 2
 
 - Survey Interval 1: 6/16/2006
 - Survey Interval 2: 6/21/2006
-- Survey Interval 3: date unknown due to scanning error on form
+- Survey Interval 3: date unknown due to a scanning error on form
 - Survey Interval 4: 6/21/2006
 - Survey Interval 5: 7/5/2006
-- **Total SWWF Found:** 0
+- **Total SWWF Found: 0**
 
 **2007**
 
