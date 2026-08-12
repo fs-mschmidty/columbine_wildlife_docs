@@ -47,6 +47,9 @@ This survey location has the most historic surveys recorded. We have data from 2
 - Survey Interval 3: 7/15/2021
 - **Total SWWF Found: 0**
 
+<img width="622" height="408" alt="Screenshot 2026-08-12 165428" src="https://github.com/user-attachments/assets/d53a02cc-3096-4e5d-8365-b925811c2103" />
+
+
 ### East Vallecito
 
 This survey location has data on record from 2006, 2011, 2017, and 2021.
@@ -79,6 +82,9 @@ This survey location has data on record from 2006, 2011, 2017, and 2021.
 - Survey Interval 3: 7/3/2021
 - **Total SWWF Found: 0**
 
+<img width="624" height="408" alt="Screenshot 2026-08-12 165415" src="https://github.com/user-attachments/assets/4a2fc521-599f-4cf3-9d07-6f4138be0ebf" />
+
+
 ### Hermosa Park
 
 This survey location has data on record from 2008 and 2009.
@@ -101,6 +107,9 @@ This survey location has data on record from 2008 and 2009.
 - Survey Interval 5: 7/72009
 - **Total SWWF Found: 0**
 
+<img width="1650" height="1275" alt="Hermosa_survey_units" src="https://github.com/user-attachments/assets/0274eb52-64c5-4f34-beaa-55e97e8f7b8b" />
+
+
 ### Parrot Creek
 
 This location was only surveyed in 2023. The survey was conducted here before the La Plata Electric Association Mayday project began construction.
@@ -110,3 +119,5 @@ This location was only surveyed in 2023. The survey was conducted here before th
 - Survey Interval 3: 6/30/2023
 - Survey Interval 4: 7/9/2023
 - **Total SWWF Found: 0**
+
+<img width="886" height="1192" alt="Screenshot 2026-08-12 163741" src="https://github.com/user-attachments/assets/0595d03b-5cc3-4acb-b615-43f1e79c3192" />
