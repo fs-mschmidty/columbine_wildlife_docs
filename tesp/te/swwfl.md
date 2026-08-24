@@ -126,5 +126,5 @@ This location was only surveyed in 2023. The survey was conducted here before th
 
 A geodatabase on ArcGIS Pro has been created to house all SWWF surveys and locations on the Columbine Ranger District. The survey data is stored within a table that has a spatial relationship to the survey location polygons. If anymore surveys are found, we will add them to the geodatabase as a way to track all the data in one location. We will also update this page with any additional surveys found. 
 
-<img width="3300" height="2550" alt="swwf_locations" src="https://github.com/user-attachments/assets/e6ec31bf-df6f-49cd-973d-cce5ec70516c" />
+<img width="3300" height="2550" alt="swwf(noborder)" src="https://github.com/user-attachments/assets/b85afb28-e7b3-4a52-81e0-b9f09784d6ba" />
 
