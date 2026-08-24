@@ -20,6 +20,12 @@ Surveys were conducted at the Peterson's Gulch location on 5/12/26. Sign of rece
 
 ### Silverspot and Bog Violet surveys
 
+**Bog Violet**
+
+Viola nephrophylla, also known as Northern Bog Violet, is the sole habitat for Silverspot butterflies. It is the only plant that Silverspot butterflies lay their eggs on. The elevation for Silverspot habitat ranges up to 8400 feet. In late spring and early summer (blooming season for the flower), we conducted surveys along wetlands within the elevation range for Silverspot habitat. Surveys were also conducted in proposed project areas. We noticed that bog violet seemed to have an early and short blooming season this year. 
+
+The highest abundance of bog violet was found around Haviland Lake / Chris Park. With multiple ongoing projects in Beaver Meadows, that area was also intensively surveyed. Some bog violet was found along stream beds. Patches of verified bog violet (by a wildlife employee) have been recorded on the Silverspot/Bog Violet All Surveys map in Field Maps as a polygon. General habitat inventory by any forest employee is recorded as a line on the Silverspot Habitat Inventory - SJNF Field Map. 
+
 ### Raptor Surveys
 
 Raptor surveys were conducted in all proposed timber and fuels units using the Broadcast Acoustical Survey Method. Active raptor nests were found in the Bevel and Sun King timber units.
