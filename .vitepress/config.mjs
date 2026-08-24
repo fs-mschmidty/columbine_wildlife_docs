@@ -15,6 +15,7 @@ export default defineConfig({
       { text: "NEPA", link: "/nepa/" },
       { text: "Policy", link: "/rd_policy/" },
       { text: "Protocols", link: "/protocols/" },
+      { text: "End of Year", link: "/end_of_year/" },
     ],
 
     sidebar: {
@@ -131,6 +132,15 @@ export default defineConfig({
           items: [
             { text: "CRD Protocols", link: "/protocols" },
             { text: "NABat protocols", link: "/protocols/nabat" },
+          ],
+        },
+      ],
+      "/end_of_year/": [
+        {
+          text: "End of Year",
+          items: [
+            { text: "End of Year Reports", link: "/end_of_year/" },
+            { text: "2026", link: "/end_of_year/2026_eoy_report" },
           ],
         },
       ],
