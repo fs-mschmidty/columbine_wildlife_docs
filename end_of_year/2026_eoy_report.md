@@ -50,3 +50,9 @@ Annual NA Bat passive monitoring units were deployed at Lange Canyon, Relay Stat
 At time of deployment in 2027, we will need to take out a T-post pounder to solidify the T-posts further into the ground.
 
 ## Computer Work
+
+### Southwestern Willow Flycatcher Geodatabase
+
+A geodatabase has been created to centralize all data for Southwestern Willow Flycatchers (SWWF) on the Columbine Ranger District. Four survey locations with correlating data have been found so far. Hermosa Park, East Vallecito, and Beaver Meadows have repeating surveys dating back to 2004 at the earliest. Parrot Creek has data from 2023, as it was modeled habitat in a project area. Each location is a polygon on the map, containing related records for each survey. If we find anymore SWWF surveys on the Columbine Ranger District, they will be added to this geodatabase. No SWWF have been found or recorded on any surveys. 
+<img width="3300" height="2550" alt="swwf(noborder)" src="https://github.com/user-attachments/assets/eb378711-fd1c-4611-8196-644f4d2d8de9" />
+
