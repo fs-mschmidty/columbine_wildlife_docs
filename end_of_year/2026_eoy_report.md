@@ -2,7 +2,21 @@
 
 ## Field Work
 
-### Abert's Squerrel Surveys
+### Abert's Squirrel Surveys
+
+Abert's Squirrel surveys were completed at three locations in the spring of 2026: Saul's Creek, Shamrock, and Peterson's Gulch. 
+
+**Saul's Creek**
+
+Surveys were conducted at the Saul's Creek location on 4/27/26 and 4/28/26. Sign of recent Abert's activity was found at 7 out of 256 survey locations. The frequency index was optimal, at 0.02734375.
+
+**Shamrock**
+
+Surveys were conducted at the Shamrock location on 4/29/26. Sign of recent Abert's activity was found at 21 out of 256 survey locations. The frequency index was optimal, at 0.08203125.
+
+**Peterson's Gulch**
+
+Surveys were conducted at the Peterson's Gulch location on 5/12/26. Sign of recent Abert's activity was found at 23 out of 256 survey locations. The frequency index was optimal, at 0.08984375.
 
 ### Silverspot and Bog Violet surveys
 
