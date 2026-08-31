@@ -24,7 +24,15 @@ Surveys were conducted at the Peterson's Gulch location on 5/12/26. Sign of rece
 
 Viola nephrophylla, also known as Northern Bog Violet, is the sole habitat for Silverspot butterflies. It is the only plant that Silverspot butterflies lay their eggs on. The elevation for Silverspot habitat ranges up to 8400 feet. In late spring and early summer (blooming season for the flower), we conducted surveys along wetlands within the elevation range for Silverspot habitat. Surveys were also conducted in proposed project areas. We noticed that bog violet seemed to have an early and short blooming season this year. 
 
-The highest abundance of bog violet was found around Haviland Lake / Chris Park. With multiple ongoing projects in Beaver Meadows, that area was also intensively surveyed. Some bog violet was found along stream beds. Patches of verified bog violet (by a wildlife employee) have been recorded on the Silverspot/Bog Violet All Surveys map in Field Maps as a polygon. General habitat inventory by any forest employee is recorded as a line on the Silverspot Habitat Inventory - SJNF Field Map. 
+The highest abundance of bog violet was found around Haviland Lake / Chris Park. With multiple ongoing projects in Beaver Meadows, that area was also intensively surveyed. Some bog violet was found along stream beds. Patches of verified bog violet (by a wildlife employee) have been recorded on the Silverspot/Bog Violet All Surveys map in Field Maps as a polygon. General habitat inventory by any forest employee is recorded as a line on the Silverspot Habitat Inventory - SJNF Field Map.
+
+**Silverspot Surveys**
+
+Silverspot surveys are conducted in August and September. We have completed surveys at Scaffold Lick (Burn Unit), Haviland - Elbert Creek, Chris Park, and Mayday - Parrot Creek. Each location is also related to a project area. Scaffold Lick, Haviland, and Chris Park each have an abundance of bog violet and are within the elevation range of Silverspot habitat. We only completed one survey at Mayday because it is at 8600 feet (outside of the elevation range) and has no bog violet; no Silverspot butterflys here. 
+
+<img width="1055" height="813" alt="Screenshot 2026-08-31 144557" src="https://github.com/user-attachments/assets/912a88f5-ea72-42ca-8e5f-70492b98971e" />
+
+
 
 ### Raptor Surveys
 
@@ -55,4 +63,8 @@ At time of deployment in 2027, we will need to take out a T-post pounder to soli
 
 A geodatabase has been created to centralize all data for Southwestern Willow Flycatchers (SWWF) on the Columbine Ranger District. Four survey locations with correlating data have been found so far. Hermosa Park, East Vallecito, and Beaver Meadows have repeating surveys dating back to 2004 at the earliest. Parrot Creek has data from 2023, as it was modeled habitat in a project area. Each location is a polygon on the map, containing related records for each survey. If we find anymore SWWF surveys on the Columbine Ranger District, they will be added to this geodatabase. No SWWF have been found or recorded on any surveys. 
 <img width="3300" height="2550" alt="swwf(noborder)" src="https://github.com/user-attachments/assets/eb378711-fd1c-4611-8196-644f4d2d8de9" />
+
+### Milkweed Database
+
+A Field Map has been created to document Milkweed findings. The web map was designed similarly to the bog violet field map. There are two feature layers: Milkweed Inventory Line and Milkweed Patches Polygon. The intent of the Milkweed Inventory Line is for any forest employees to be able to document milkweed findings, just like the bog violet field map. You can record a track as you walk around an area, and it will symbolize as red if you found no milkweed, and blue if there is milkweed. The Milkweed Patches Polygon is intended for wildlife biologists only. Official patches of milkweed will be recorded as a polygon, as you move around the patch. More information can be found on the [Milkweed Field Maps page](https://fs-mschmidty.github.io/columbine_wildlife_docs/gis/field-maps/milkweed-map.html). 
 
