@@ -18,6 +18,8 @@ Surveys were conducted at the Shamrock location on 4/29/26. Sign of recent Abert
 
 Surveys were conducted at the Peterson's Gulch location on 5/12/26. Sign of recent Abert's activity was found at 23 out of 256 survey locations. The frequency index was optimal, at 0.08984375.
 
+<img width="3300" height="2550" alt="Abert&#39;s 2026" src="https://github.com/user-attachments/assets/318d2e67-8814-48af-a2a3-9d717b3807b0" />
+
 ### Silverspot and Bog Violet surveys
 
 **Bog Violet**
