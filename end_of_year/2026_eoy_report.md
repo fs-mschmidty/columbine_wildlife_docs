@@ -20,6 +20,13 @@ Surveys were conducted at the Peterson's Gulch location on 5/12/26. Sign of rece
 
 <img width="3300" height="2550" alt="Abert&#39;s 2026" src="https://github.com/user-attachments/assets/318d2e67-8814-48af-a2a3-9d717b3807b0" />
 
+**Passive Monitoring**
+
+Three passive monitoring units were deployed to record American Goshawk activity in Peterson's Gulch from 5/4/26 to 5/12/26. They were deployed within modeled core habitat for American Goshawks. 
+
+<img width="3300" height="2550" alt="amgo passive monitoring" src="https://github.com/user-attachments/assets/5342233d-3fbf-4853-891b-f1c60c120f09" />
+
+
 ### Silverspot and Bog Violet surveys
 
 **Bog Violet**
