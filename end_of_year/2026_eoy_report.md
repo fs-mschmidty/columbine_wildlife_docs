@@ -37,7 +37,7 @@ The highest abundance of bog violet was found around Haviland Lake / Chris Park.
 
 **Silverspot Surveys**
 
-Silverspot surveys are conducted in August and September. We have completed surveys at Scaffold Lick (Burn Unit), Haviland - Elbert Creek, Chris Park, and Mayday - Parrot Creek. Each location is also related to a project area, except for Chris Park. Scaffold Lick, Haviland, and Chris Park each have an abundance of bog violet and are within the elevation range of Silverspot habitat. 
+Silverspot surveys are conducted in August and September. We have completed surveys at Scaffold Lick (Burn Unit), Haviland - Elbert Creek, Chris Park, and Mayday - Parrot Creek. Each location is also related to a project area, except for Chris Park. Scaffold Lick, Haviland, and Chris Park each have an abundance of bog violet and are within the elevation range of Silverspot habitat. The filled out "Bog Violet and Silverspot Butterfly Survey Data Forms" and their respective maps can be found in this folder on Box: 26xxGeneral\ColumbineWorkSpace\Monitoring\Silverspot Butterfly\2026. 
 
 We only completed one survey at Mayday because it is at 8600 feet (outside of the elevation range) and has no bog violet; no Silverspot butterflys here. This survey was conducted on 8/27/26.
 
