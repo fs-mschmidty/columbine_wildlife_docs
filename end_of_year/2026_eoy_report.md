@@ -45,7 +45,7 @@ We only completed one survey at Mayday because it is at 8600 feet (outside of th
 
 Three surveys were completed at Scaffold Lick Burn Unit. Survey 1 was on 8/21/26, Survey 2 on 8/25/26, and Survey 3 on 9/8/26.  Each survey was conducted between 10:00 A.M. and 12:30 P.M. and within the weather requirements. There is an abundance of bog violet throughout this entire survey area. No Silverspot or other fritillaries found here during the survey period.
 
-<img width="1052" height="813" alt="Screenshot 2026-09-08 152000" src="https://github.com/user-attachments/assets/20dfa75d-3d81-4cab-b24b-1c22e4543e6a" />
+<img width="1057" height="817" alt="Screenshot 2026-09-08 154449" src="https://github.com/user-attachments/assets/deb4aea5-78cb-467b-910d-0f8e1711f917" />
 
 Three surveys were completed at Haviland - Elbert Creek project area. Survey 1 on 8/19/26, Survey 2 on 8/27/26, and Survey 3 on 9/9/26. 
 
