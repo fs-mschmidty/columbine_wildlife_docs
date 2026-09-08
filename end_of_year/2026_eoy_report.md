@@ -37,11 +37,19 @@ The highest abundance of bog violet was found around Haviland Lake / Chris Park.
 
 **Silverspot Surveys**
 
-Silverspot surveys are conducted in August and September. We have completed surveys at Scaffold Lick (Burn Unit), Haviland - Elbert Creek, Chris Park, and Mayday - Parrot Creek. Each location is also related to a project area. Scaffold Lick, Haviland, and Chris Park each have an abundance of bog violet and are within the elevation range of Silverspot habitat. We only completed one survey at Mayday because it is at 8600 feet (outside of the elevation range) and has no bog violet; no Silverspot butterflys here. 
+Silverspot surveys are conducted in August and September. We have completed surveys at Scaffold Lick (Burn Unit), Haviland - Elbert Creek, Chris Park, and Mayday - Parrot Creek. Each location is also related to a project area, except for Chris Park. Scaffold Lick, Haviland, and Chris Park each have an abundance of bog violet and are within the elevation range of Silverspot habitat. 
+
+We only completed one survey at Mayday because it is at 8600 feet (outside of the elevation range) and has no bog violet; no Silverspot butterflys here. This survey was conducted on 8/27/26.
 
 <img width="1055" height="813" alt="Screenshot 2026-08-31 144557" src="https://github.com/user-attachments/assets/912a88f5-ea72-42ca-8e5f-70492b98971e" />
 
+Three surveys were completed at Scaffold Lick Burn Unit. Survey 1 was on 8/21/26, Survey 2 on 8/25/26, and Survey 3 on 9/8/26.  Each survey was conducted between 10:00 A.M. and 12:30 P.M. and within the weather requirements. There is an abundance of bog violet throughout this entire survey area. No Silverspot or other fritillaries found here during the survey period.
 
+<img width="1052" height="813" alt="Screenshot 2026-09-08 152000" src="https://github.com/user-attachments/assets/20dfa75d-3d81-4cab-b24b-1c22e4543e6a" />
+
+Three surveys were completed at Haviland - Elbert Creek project area. Survey 1 on 8/19/26, Survey 2 on 8/27/26, and Survey 3 on 9/9/26. 
+
+Only two surveys were completed at Chris Park. There is not a specific project related to this survey area. Survey 1 was on 8/26/26 and Survey 2 was on 9/9/26. 
 
 ### Raptor Surveys
 
