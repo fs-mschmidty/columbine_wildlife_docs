@@ -37,19 +37,24 @@ The highest abundance of bog violet was found around Haviland Lake / Chris Park.
 
 **Silverspot Surveys**
 
-Silverspot surveys are conducted in August and September. We have completed surveys at Scaffold Lick (Burn Unit), Haviland - Elbert Creek, Chris Park, and Mayday - Parrot Creek. Each location is also related to a project area, except for Chris Park. Scaffold Lick, Haviland, and Chris Park each have an abundance of bog violet and are within the elevation range of Silverspot habitat. The filled out "Bog Violet and Silverspot Butterfly Survey Data Forms" and their respective maps can be found in this folder on Box: 26xxGeneral\ColumbineWorkSpace\Monitoring\Silverspot Butterfly\2026. 
+Speyeria nokomis nokomis, also known as Silverspot Butterfly, surveys are conducted in August and September. We have completed surveys at Scaffold Lick (Burn Unit), Haviland - Elbert Creek, Chris Park, and Mayday - Parrot Creek. Each location is also related to a project area, except for Chris Park. Scaffold Lick, Haviland, and Chris Park each have an abundance of bog violet and are within the elevation range of Silverspot habitat. The filled out "Bog Violet and Silverspot Butterfly Survey Data Forms" and their respective maps can be found in this folder on Box: 26xxGeneral\ColumbineWorkSpace\Monitoring\Silverspot Butterfly\2026. 
 
 We only completed one survey at Mayday because it is at 8600 feet (outside of the elevation range) and has no bog violet; no Silverspot butterflys here. This survey was conducted on 8/27/26.
 
 <img width="1055" height="813" alt="Screenshot 2026-08-31 144557" src="https://github.com/user-attachments/assets/912a88f5-ea72-42ca-8e5f-70492b98971e" />
 
-Three surveys were completed at Scaffold Lick Burn Unit. Survey 1 was on 8/21/26, Survey 2 on 8/25/26, and Survey 3 on 9/8/26.  Each survey was conducted between 10:00 A.M. and 12:30 P.M. and within the weather requirements. There is an abundance of bog violet throughout this entire survey area. No Silverspot or other fritillaries found here during the survey period.
+Three surveys were completed at Scaffold Lick Burn Unit. Survey 1 was on 8/21/26, Survey 2 on 8/25/26, and Survey 3 on 9/8/26.  Each survey was conducted between 10:00 A.M. and 12:30 P.M. and within the weather requirements. There is an abundance of bog violet throughout this entire survey area. No Silverspot butterflies were found here during the survey period.
 
 <img width="1057" height="817" alt="Screenshot 2026-09-08 154449" src="https://github.com/user-attachments/assets/deb4aea5-78cb-467b-910d-0f8e1711f917" />
 
-Three surveys were completed at Haviland - Elbert Creek project area. Survey 1 on 8/19/26, Survey 2 on 8/27/26, and Survey 3 on 9/9/26. 
+Three surveys were completed at Haviland - Elbert Creek project area. Survey 1 on 8/19/26, Survey 2 on 8/27/26, and Survey 3 on 9/9/26. No Silverspot butterflies were found here during the survey period.
 
-Only two surveys were completed at Chris Park. There is not a specific project related to this survey area. Survey 1 was on 8/26/26 and Survey 2 was on 9/9/26. 
+<img width="1058" height="816" alt="Screenshot 2026-09-10 153417" src="https://github.com/user-attachments/assets/de318fcf-002c-491e-845c-913c760c5e38" />
+
+Only two surveys were completed at Chris Park. There is not a specific project related to this survey area. Survey 1 was on 8/26/26 and Survey 2 was on 9/9/26. No Silverspot butterflies were found here during the survey period. 
+
+<img width="1057" height="815" alt="Screenshot 2026-09-10 153601" src="https://github.com/user-attachments/assets/d68a8ead-bd99-49df-bdd3-247da2f0e053" />
+
 
 ### Raptor Surveys
 
